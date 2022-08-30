@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/basketFragment"
+        android:title="@string/basket"
+        android:icon="@drawable/basket"
+        android:iconTintMode="src_atop"
+        />
+    <item
+        android:id="@+id/tennisFragment"
+        android:title="@string/tennis"
+        android:icon="@drawable/tennis"
+        android:iconTintMode="src_atop"
+        />
+    <item android:id="@+id/handFragment"
+        android:title="@string/hand"
+        android:icon="@drawable/handball"
+        android:iconTintMode="src_atop" />
+
+
+
+</menu>

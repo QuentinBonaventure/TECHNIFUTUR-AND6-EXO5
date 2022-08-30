@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="basket" />
+    <string name="tennis" />
+    <string name="hand" />
+    <string name="infos">Infos</string>
+
+    <string name="contactTitle">Contact</string>
+    <string name="planningTitle">Planning</string>
+    <string name="pratiqueTitle">Pratique</string>
+    <string name="infosTitle">Infos</string>
+    <string name="entrainementTitle">Entrainement</string>
+</resources>

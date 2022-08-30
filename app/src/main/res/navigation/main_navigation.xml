@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/basketFragment">
+
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.technifutur.neopixl.exo5.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/tennisFragment"
+        android:name="com.technifutur.neopixl.exo5.TennisFragment"
+        android:label="fragment_tennis"
+        tools:layout="@layout/fragment_tennis" >
+        <action
+            android:id="@+id/action_newsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.technifutur.neopixl.exo5.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+    <fragment
+        android:id="@+id/handFragment"
+        android:name="com.technifutur.neopixl.exo5.HandFragment"
+        android:label="fragment_hand"
+        tools:layout="@layout/fragment_hand" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.technifutur.neopixl.exo5.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/pratiqueFragment2"
+        android:name="com.technifutur.neopixl.exo5.PratiqueFragment"
+        android:label="fragment_pratique"
+        tools:layout="@layout/fragment_pratique" />
+    <fragment
+        android:id="@+id/planningFragment"
+        android:name="com.technifutur.neopixl.exo5.PlanningFragment"
+        android:label="fragment_planning"
+        tools:layout="@layout/fragment_planning" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.technifutur.neopixl.exo5.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/entrainementFragment"
+        android:name="com.technifutur.neopixl.exo5.EntrainementFragment"
+        android:label="fragment_entrainement"
+        tools:layout="@layout/fragment_entrainement" />
+</navigation>

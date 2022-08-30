@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/infoFragment"
+    android:icon="@drawable/info"
+    android:iconTintMode="src_atop"
+    android:title="Info"
+    />
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/contact"
+        android:title="Contact"
+        android:iconTintMode="src_atop"/>
+    <item android:id="@+id/pratiqueFragment2"
+        android:icon="@drawable/pratique"
+        android:title="Pratique" />
+    <item android:id="@+id/entrainementFragment"
+        android:icon="@drawable/entrainement"
+        android:title="Entrainement"
+        android:iconTintMode="src_atop" />
+    <item android:id="@+id/planningFragment"
+        android:icon="@drawable/planning"
+        android:iconTintMode="src_atop"
+        android:title="Planning"/>
+
+
+
+
+
+</menu>
